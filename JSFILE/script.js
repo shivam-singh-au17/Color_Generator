@@ -1,4 +1,4 @@
-for (let i = 1; i <= 150; i++) {
+for (let i = 1; i <= 250; i++) {
     const box = document.createElement('div');
     box.classList.add('box');
     document.querySelector('.container').appendChild(box);
