@@ -1,4 +1,4 @@
-for (let i = 1; i <= 250; i++) {
+for (let i = 1; i <= 200; i++) {
     const box = document.createElement('div');
     box.classList.add('box');
     document.querySelector('.container').appendChild(box);
@@ -27,3 +27,14 @@ function addColor() {
         e.style.border = "3px solid red"
     })
 }
+
+function addColor2() {
+    randomColorBlock.forEach(e => {
+        var newColor = RandomHexColorCode();
+        e.style.backgroundColor = newColor;
+        e.innerHTML = newColor;
+        e.style.border = "3px solid red"
+    })
+}
+
+addColor2()
