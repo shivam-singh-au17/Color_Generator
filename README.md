@@ -7,12 +7,12 @@
 
 ### This is a random color generator website where you can choose the color of your choice by refreshing the page again and again as per your convenience. You get to see more than 200 colors at a time here. You can use this website to choose colors for your project and your website.
 
-# Technologies I Used
+# Technologies Used
 
 - I used  [HTML-5](https://www.w3schools.com/html/) and [CSS-3](https://www.w3schools.com/css/default.asp) for designing and layout.
 - And also used  [JavaScript](https://www.w3schools.com/javascript/) for designing and layout.
 
-# Tools I Used
+# Tools Used
 
 -  [VS Code](https://code.visualstudio.com/download) to write code.
 -  [Github](https://github.com/shivam-singh-au17) for functionality.
