@@ -1,4 +1,4 @@
-for (let i = 1; i <= 200; i++) {
+for (let i = 1; i <= 210; i++) {
     const box = document.createElement('div');
     box.classList.add('box');
     document.querySelector('.container').appendChild(box);
@@ -20,20 +20,20 @@ function RandomHexColorCode() {
 }
 
 function addColor() {
-    randomColorBlock.forEach(e => {
+    randomColorBlock.forEach(item => {
         var newColor = RandomHexColorCode();
-        e.style.backgroundColor = newColor;
-        e.innerHTML = newColor;
-        e.style.border = "3px solid red"
+        item.style.backgroundColor = newColor;
+        item.innerHTML = newColor;
+        item.style.border = "3px solid red"
     })
 }
 
 function addColor2() {
-    randomColorBlock.forEach(e => {
+    randomColorBlock.forEach(item => {
         var newColor = RandomHexColorCode();
-        e.style.backgroundColor = newColor;
-        e.innerHTML = newColor;
-        e.style.border = "3px solid red"
+        item.style.backgroundColor = newColor;
+        item.innerHTML = newColor;
+        item.style.border = "3px solid red"
     })
 }
 
